@@ -92,3 +92,16 @@ footer{
     background-color: #232323;
     color: gray;
 }
+
+/* ========form style======== */
+#form-section{
+    width: 45%;
+    height: 500px;
+    margin: 4rem auto;
+    background: linear-gradient(to left,#ff00c3,#0800fd);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+#form-section h2{
+    display: inline;
+}
