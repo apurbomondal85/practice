@@ -209,3 +209,54 @@ table input{
 table .center-img{
     text-align: center;
 }
+
+/* =====service===== */
+
+#service-section{
+    padding: 5rem 8rem;
+    text-align: center;
+    background: linear-gradient(to left, #ff5500,#aa00ff);
+}
+#service-section .service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+#service-section h2{
+    color: #ebebeb;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+#service-section .service .left,
+#service-section .service .mid,
+#service-section .service .right{
+    padding: 1rem 2rem;
+    background: linear-gradient(to left,#2a2c2c,#3f3c3e);
+    border-radius: 1rem;
+    transition: all .3s ease-in-out;
+}
+#service-section .service .left:hover,
+#service-section .service .mid:hover,
+#service-section .service .right:hover{
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2),
+                -3px -3px 3px rgba(0,0,0,0.2);
+}
+#service-section .service i{
+    padding: .7rem .6rem;
+    font-size: 1.4rem;
+    background: #00ffaa;
+    border-radius: 50%;
+    color: #000000;
+    margin: .9rem 0;
+}
+#service-section .service h3{
+    font-size: 1.3rem;
+    color: #dadada;
+    margin-bottom: .6rem;
+}
+#service-section .service p{
+    font-size: .9rem;
+    color: #a4a4a4;
+}
