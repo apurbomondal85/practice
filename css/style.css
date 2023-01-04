@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+body{
+    background-color: bisque;
+}
+
+header nav{
+    padding: .9rem 8rem;
+    background-color: #00ffaa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav h1{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 2.5rem;
+    /* color: black; */
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all .3s ease-in-out;
+}
+nav ul li a:hover{
+    color: #f50000;
+}
+#hero{
+    padding: 3rem 8rem;
+    height: 400px;
+    background-color: #f50000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+#hero .left,#hero .right{
+    text-align: justify;
+    background-color: #ffffff;
+    height: 300px;
+    padding: 3rem;
+    line-height: 1.3rem;
+    width: 46%;
+}
+#about{
+    text-align: center;
+    padding: 3rem 8rem;
+    height: 500px;
+    background-color: #25f500;
+}
+#about h2{
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+#about .flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+#about .left,#about .right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    background-color: #ffffff;
+    height: 300px;
+    padding: 3rem;
+    line-height: 1.3rem;
+    width: 46%;
+}
+#about .left img{
+    width: 100%;
+}
+footer{
+    text-align: center;
+    padding: 3rem 8rem;
+    background-color: #232323;
+    color: gray;
+}
