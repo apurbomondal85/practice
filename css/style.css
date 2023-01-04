@@ -260,3 +260,30 @@ table .center-img{
     font-size: .9rem;
     color: #a4a4a4;
 }
+
+/* =====blog style==== */
+
+.blog{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 800px;
+    gap: 2rem;
+    padding: 3rem 8rem;
+}
+.left-side{
+    background: #aa00ff;
+    border: 5px solid #000000;
+    padding: 3rem;
+    text-align: center;
+}
+.right-side{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 48% 48%;
+    gap: 2rem;
+}
+.right-side .mid-up,.right-side .mid-down{
+    background-color: #00ffaa;
+    text-align: center;
+    padding: 5rem;
+}
